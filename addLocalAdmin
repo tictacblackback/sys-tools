@@ -1,0 +1,4 @@
+@ECHO OFF
+SET /P userName=Enter Username:
+net localgroup administrators DomainName\%userName% /add
+PAUSE
